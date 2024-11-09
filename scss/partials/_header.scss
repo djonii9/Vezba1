@@ -147,3 +147,19 @@
           }
         }
     }}
+
+    @media (min-width: 992px) {
+      .main-header {
+        .navbar-nav {
+          padding-right: 190px;
+          li {
+            &:last-child {
+              margin-right: 30px;
+            }
+          }
+        }
+        .search-cart-holder {
+          top: 44px;
+        }
+      }
+    }
